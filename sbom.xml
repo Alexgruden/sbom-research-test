@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:32bd16f8-8463-47b0-9b82-aea8969bb105" version="1">
+  <metadata>
+    <timestamp>2026-04-01T15:06:32.775114+00:00</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <group>CycloneDX</group>
+          <name>cyclonedx-py</name>
+          <version>7.3.0</version>
+          <description>CycloneDX Software Bill of Materials (SBOM) generator for Python projects and environments</description>
+          <licenses>
+            <license acknowledgement="declared">
+              <id>Apache-2.0</id>
+            </license>
+          </licenses>
+          <externalReferences>
+            <reference type="build-system">
+              <url>https://github.com/CycloneDX/cyclonedx-python/actions</url>
+            </reference>
+            <reference type="distribution">
+              <url>https://pypi.org/project/cyclonedx-bom/</url>
+            </reference>
+            <reference type="documentation">
+              <url>https://cyclonedx-bom-tool.readthedocs.io/</url>
+            </reference>
+            <reference type="issue-tracker">
+              <url>https://github.com/CycloneDX/cyclonedx-python/issues</url>
+            </reference>
+            <reference type="license">
+              <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE</url>
+            </reference>
+            <reference type="release-notes">
+              <url>https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md</url>
+            </reference>
+            <reference type="vcs">
+              <url>https://github.com/CycloneDX/cyclonedx-python/</url>
+            </reference>
+            <reference type="website">
+              <url>https://github.com/CycloneDX/cyclonedx-python/#readme</url>
+            </reference>
+          </externalReferences>
+        </component>
+        <component type="library">
+          <group>CycloneDX</group>
+          <name>cyclonedx-python-lib</name>
+          <version>11.7.0</version>
+          <description>Python library for CycloneDX</description>
+          <licenses>
+            <license acknowledgement="declared">
+              <id>Apache-2.0</id>
+            </license>
+          </licenses>
+          <externalReferences>
+            <reference type="build-system">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url>
+            </reference>
+            <reference type="distribution">
+              <url>https://pypi.org/project/cyclonedx-python-lib/</url>
+            </reference>
+            <reference type="documentation">
+              <url>https://cyclonedx-python-library.readthedocs.io/</url>
+            </reference>
+            <reference type="issue-tracker">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/issues</url>
+            </reference>
+            <reference type="license">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE</url>
+            </reference>
+            <reference type="release-notes">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md</url>
+            </reference>
+            <reference type="vcs">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib</url>
+            </reference>
+            <reference type="website">
+              <url>https://github.com/CycloneDX/cyclonedx-python-lib/#readme</url>
+            </reference>
+          </externalReferences>
+        </component>
+      </components>
+    </tools>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="requirements-L2">
+      <name>Django</name>
+      <version>6.0.3</version>
+      <description>requirements line 2: Django==6.0.3</description>
+      <purl>pkg:pypi/django@6.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/Django/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L6">
+      <name>PyJWT</name>
+      <version>2.12.1</version>
+      <description>requirements line 6: PyJWT==2.12.1</description>
+      <purl>pkg:pypi/pyjwt@2.12.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/PyJWT/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L1">
+      <name>asgiref</name>
+      <version>3.11.1</version>
+      <description>requirements line 1: asgiref==3.11.1</description>
+      <purl>pkg:pypi/asgiref@3.11.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/asgiref/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L3">
+      <name>django-cors-headers</name>
+      <version>4.9.0</version>
+      <description>requirements line 3: django-cors-headers==4.9.0</description>
+      <purl>pkg:pypi/django-cors-headers@4.9.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/django-cors-headers/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L4">
+      <name>django-extensions</name>
+      <version>4.1</version>
+      <description>requirements line 4: django-extensions==4.1</description>
+      <purl>pkg:pypi/django-extensions@4.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/django-extensions/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L5">
+      <name>djangorestframework</name>
+      <version>3.17.1</version>
+      <description>requirements line 5: djangorestframework==3.17.1</description>
+      <purl>pkg:pypi/djangorestframework@3.17.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/djangorestframework/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L7">
+      <name>six</name>
+      <version>1.17.0</version>
+      <description>requirements line 7: six==1.17.0</description>
+      <purl>pkg:pypi/six@1.17.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/six/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L9">
+      <name>sqlparse</name>
+      <version>0.5.5</version>
+      <description>requirements line 9: sqlparse==0.5.5</description>
+      <purl>pkg:pypi/sqlparse@0.5.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/sqlparse/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="requirements-L8">
+      <name>urllib3</name>
+      <version>1.26.4</version>
+      <description>requirements line 8: urllib3==1.26.4</description>
+      <purl>pkg:pypi/urllib3@1.26.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://pypi.org/simple/urllib3/</url>
+          <comment>implicit dist url</comment>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="requirements-L1"/>
+    <dependency ref="requirements-L2"/>
+    <dependency ref="requirements-L3"/>
+    <dependency ref="requirements-L4"/>
+    <dependency ref="requirements-L5"/>
+    <dependency ref="requirements-L6"/>
+    <dependency ref="requirements-L7"/>
+    <dependency ref="requirements-L8"/>
+    <dependency ref="requirements-L9"/>
+  </dependencies>
+</bom>
