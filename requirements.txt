@@ -6,4 +6,4 @@ djangorestframework==3.17.1
 PyJWT==2.12.1
 six==1.17.0
 urllib3==1.26.4
-sqlparse==0.4.3
+sqlparse==0.5.4
